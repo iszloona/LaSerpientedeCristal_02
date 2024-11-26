@@ -1,0 +1,95 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color:#F5F5DC ; /* Bege suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .login-box {
+    background-color: #FFFFFF; /* Branco */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem; /* Aumenta o tamanho para destaque */
+    color:#556B2F; /* Marrom claro */
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px; /* Adiciona espaço entre as letras */
+  }
+  
+  
+  .login-form label {
+    display: block;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #4E3629; /* Marrom escuro */
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #D3D3D3; /* Cinza claro */
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .login-form input:focus {
+    border-color: #A67B5B; /* Marrom claro */
+    outline: none;
+  }
+  
+  .login-form button {
+    background-color: #A67B5B; /* Marrom claro */
+    color: #FFFFFF;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #4E3629; /* Marrom escuro */
+  }
+  
+  .footer-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #4E3629; /* Marrom escuro */
+  }
+  
+  .footer-text a {
+    color: #A67B5B; /* Marrom claro */
+    text-decoration: none;
+  }
+  
+  .footer-text a:hover {
+    text-decoration: underline;
+  }
+  
